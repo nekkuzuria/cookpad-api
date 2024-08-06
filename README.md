@@ -4,6 +4,7 @@ This project is a simple API to scrape recipes from Cookpad based on provided in
 **Prerequisites**
 - Node.js (version 14 or higher)
 - npm or yarn
+- API Key from [AbstractAPI](https://www.abstractapi.com/)
 
 **Getting Started**
 1. Clone the repository:
@@ -70,7 +71,7 @@ Response:
 {
   "title": "Telur Dadar Buncis Kentang Tepung Beras",
   "image": "https://img-global.cpcdn.com/recipes/96d390d8744a5391/160x176cq30/telur-dadar-buncis-kentang-tepung-beras-foto-resep-utama.jpg",
-  "summary": "telur ayam,\n      buncis,\n      kentang,\n      Tepung beras,\n      Bahan lainya :,\n      cabe giling,\n      garam,\n      kaldu bubuk,\n      lada bubuk,\n      air putih,\n      minyak goreng",
+  "ingredients": "telur ayam,\n      buncis,\n      kentang,\n      Tepung beras,\n      Bahan lainya :,\n      cabe giling,\n      garam,\n      kaldu bubuk,\n      lada bubuk,\n      air putih,\n      minyak goreng",
   "url": "https://cookpad.com/id/resep/17196667-telur-dadar-buncis-kentang-tepung-beras"
 }
 ```
