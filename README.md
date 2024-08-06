@@ -54,7 +54,7 @@ Replace your_ingredients with the ingredients you want to search for.
 **Functionality**
 - The API fetches a list of recipes from Cookpad based on the provided ingredients.
 - It randomly selects a recipe from the list and returns the recipe details.
-- The returned data includes the recipe title, image URL, summary, and the Cookpad recipe URL.
+- The returned data includes the recipe title, image URL, ingredients, and the Cookpad recipe URL.
 
 <br>
 <br>
