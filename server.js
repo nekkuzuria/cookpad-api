@@ -36,7 +36,7 @@ fastify.get("/api/search", async (request, reply) => {
       const title = $(randomRecipe).find("h2 a").text().trim();
 
       // Extract Summary ===
-      const summary = $(randomRecipe)
+      const ingredients = $(randomRecipe)
         .find('[data-ingredients-highlighter-target="ingredients"]')
         .text()
         .trim();
@@ -64,7 +64,7 @@ fastify.get("/api/search", async (request, reply) => {
       reply.send({
         title,
         image,
-        summary,
+        ingredients,
         url: fullUrl,
       });
     } else {
